@@ -1,0 +1,21 @@
+{
+    "name": "Bom Prato Pesquisa de Satisfação",
+    "short_name": "BomPrato",
+    "display": "standalone",
+    "start_url": "login.php",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "images/logo.png",
+        "sizes": "192x192",
+        "purpose": "any maskable",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon3.ico",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

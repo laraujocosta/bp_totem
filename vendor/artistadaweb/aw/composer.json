@@ -1,0 +1,9 @@
+{
+    "name": "artistadaweb/aw",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": ">=5.0"
+    },
+	"minimum-stability": "dev",
+    "prefer-stable": true
+}

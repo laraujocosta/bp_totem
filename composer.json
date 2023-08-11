@@ -1,0 +1,8 @@
+{
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "artistadaweb/aw": "dev-master",
+        "tinymce/tinymce": "^5.0",
+        "monolog/monolog": "^2.3"
+    }
+}
