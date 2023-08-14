@@ -27,8 +27,8 @@
     <script src="vendor/artistadaweb/aw/bootstrap/dist/js/bootstrap.min.js" defer></script>
     <script src="vendor/artistadaweb/aw/js/jquery/jquery-ui.min.js" defer></script>
 
-    <!--<style>
-
+    <style>
+        
 
         form {
             opacity: 0;
@@ -38,15 +38,13 @@
         form.slideform-form {
             opacity: 1;
         }
-        
-        
+             
         html, body {
             height: 99%;
             width: 100%;
             padding: 0;
             margin: 0;
-            
-            
+             
         overflow:hidden !important;
             position: fixed;
             top: 0;
@@ -55,12 +53,24 @@
             right: 0;
             
         }
-    
-    
-    
-    
+        .txt2{width: 100%;
+            height: 50%;
+            font-size: 50px;
+            font-weight: 700;
+            padding: 15px;
+        }
         
-    
+        @media(max-width:820px){.sl1{width:114%;margin-block: 0px;position: 0px;}}
+       
+        @media(max-width:820px){.sl2{width:100%;}}
+
+        @media(max-width:820px){.fbim{height: 104px!important;}}
+
+        @media(max-width:820px){form.slideform-form .slideform-group{height:85vh;}}
+
+        @media(max-width:820px){.txt2{width: 90%;height: 50%;font-size: 37px;}}
+
+     
         body, h1, h2, h3, p, button, input, select, textarea {
             font-family: 'Raleway', Arial, sans-serif;
         }
@@ -125,7 +135,7 @@
             display: none !important;
         }
     
-        </style> -->
+        </style>
 
 </head>
 <body>  
@@ -162,21 +172,14 @@
         <!--<span class="txtFb middle">BOM</span>-->
         </div>
 
-        
-
-    </div>
-
-
     <div class="slideform-group">
 
         <div class="head_question">
         
-                <h1 class="text-center h_q">O que você achou da nossa refeição?</h1>
+                <h1 class="txt2">O que você achou da nossa refeição?</h1>
                 
-
         </div>
         
-    
         <div class="sl2">
     
             <div data-fb="1" class="fbim fbrow slideform-btn slideform-btn-next">
@@ -193,17 +196,9 @@
             <img src="images/circle1.png" class="fbim2" />
             <p class="txtFb">RUIM</p>
             <!--<span class="txtFb middle">BOM</span>-->
-            </div>
-    
-    
-        </div>
-    
+            </div>   
         </div>
 </div>
-
-<footer></footer>
-
-
 
 </form>
 </article>
@@ -261,8 +256,6 @@ crossorigin="anonymous"></script>
     </div>
   </div>
 </div>
-
-    
 
 </body>
 </html>
